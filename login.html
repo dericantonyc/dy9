@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .bg-img{
+            background-image: url("bg.jpg");
+            background-size: cover;
+            height: 100vh;
+        }
+        .bg-img h1{
+            text-align: center;
+        }
+        body form{
+            position: absolute;;
+            left: 43.5%;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="bg-img">
+    <h1>Login</h1><br><br><br>
+    <form>
+        <label for="email">User Name or Email</label><br>
+        <input type="text" id="email" name="name"><br>
+        <label for="pwd">password</label><br>
+        <input type="text" id="pwd" name="name"><br><br>
+        <input type="submit" id="login" value="Login"><br><br>
+        <a href="register.html"><input type="button" id="register" value="register"></a>
+    </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Registration</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body h1{
+            text-align: center;
+            position: relative;
+        }
+        body form{
+            text-align: center;
+        }
+        body form label{
+            position: absolute;
+            left: 43.5%;
+        }
+        #dob{
+            position: absolute;
+            left: 43.5%;
+        }
+        #course{
+            position: absolute;
+            left: 43.5%;
+        }
+        #gender{
+            position: absolute;
+            left: 43.5%;
+        }
+        .bg-image{
+            background:url(bg.jpg);
+            background-size: cover;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-image">
+        <h1>College Registration Forms</h1>
+        <form>
+            <label for="fname">First Name:</label><br>
+            <input type="text" id="fname" name="name" placeholder="Enter your first name"><br><br>
+            <label for="lname">Last Name:</label><br>
+            <input type="text" id="lname" name="name" placeholder="Enter your last name"><br><br>
+            <label for="dob">Date Of Birth:</label><br>
+            <input type="date" id="dob" name="name" placeholder="DD/MM/YY"><br><br>
+            <label for="gender">Gender:</label><br>
+            <select id="gender">
+                <option>Male</option>
+                <option>Female</option>
+            </select><br><br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="name" placeholder="Enter your Email"><br><br>
+            <label for="pno">Phone number:</label><br>
+            <input type="number" id="pno" name="name" placeholder="Enter your Phone number"><br><br>
+            <label for="address">Address:</label><br>
+            <input type="text" id="address" name="name" placeholder="Enter your address"><br><br>
+            <label for="course">Select the course:</label><br>
+            <select name="name" id="course">
+                <option>CSE</option>
+                <option>IT</option>
+                <option>AIDS</option>
+                <option>CSBS</option>
+                <option>BME</option>
+                <option>EEE</option>
+                <option>ECE</option>
+            </select><br><br>
+            <label for="yr">Year of Enrollment:</label><br>
+            <input type="number" id="yr" name="name" placeholder="Year of enrollment"><br><br>  
+            <input type="submit" id="submit" value="submit"><br><br>
+            <a href="login.html">
+            <input type="button" value="login">
+            </a>
+        </form>
+    </div>
+    
+
+</body>
+</html>
